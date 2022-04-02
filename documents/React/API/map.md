@@ -22,10 +22,10 @@ const Map= ({searchPlace}) => {
   var map;
 
   useEffect(() => {
-    drawKeywordMap();
+    keywordlistMap();
   }, []);
     
-  const drawKeywordMap = () => { // 지도를 표시할 div 
+  const keywordlistMap = () => { // 지도를 표시할 div 
     var mapContainer = document.getElementById('map'),
     mapOption = {
       center: new kakao.maps.LatLng(33.37245636567239, 126.52833144852052), // 지도의 중심좌표
@@ -245,4 +245,5 @@ const Map= ({searchPlace}) => {
   export default Map;
   ```
   
+  출처 : https://apis.map.kakao.com/web/sample/keywordList/
   ### 
