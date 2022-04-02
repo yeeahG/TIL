@@ -2,7 +2,7 @@
 ### Setting
 - .env file  
 REACT_APP_KAKAOMAP_API_KEY=발급받은key입력
-- index.html
+- index.html  
 src="//dapi.kakao.com/v2/maps/sdk.js?appkey=%REACT_APP_KAKAOMAP_API_KEY%"
 
 
