@@ -7,7 +7,6 @@ import requests
 url= 'https://'
 payload = {}
 r = requests.post(url, data=payload)
-r = requests.post(url, data=payload)
 data = r.json()['list']
 ```
 
