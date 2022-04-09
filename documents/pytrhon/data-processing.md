@@ -22,3 +22,6 @@ head = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537
 r = requests.get("https://www.melon.com/song/detail.htm?songId=34845949",headers=head)
 bs = BeautifulSoup(r.text)
 ```
+
+head사용?  
+프로그래밍 언어로 사용할 수 없는 사이트의 경우 head를 지정하여 crawling을 할 수 있는 환경을 만들어준다
