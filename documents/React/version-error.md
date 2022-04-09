@@ -1,3 +1,4 @@
+### React 18 version
 ```Warning: ReactDOM.render is no longer supported in React 18. Use createRoot instead.```
 
 index.js 에서
