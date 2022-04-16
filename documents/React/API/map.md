@@ -1,6 +1,6 @@
 ## How to use Map API
 
-🗺️Kakao Map
+## 🗺️Kakao Map
 
 ### Setting
 - .env file  
@@ -251,7 +251,7 @@ const Map= ({searchPlace}) => {
   출처 : https://apis.map.kakao.com/web/sample/keywordList/
   <br>
   
-🗺️Google Map
+## 🗺️Google Map
 ### Error
 npm install부터 에러가 많았다  
 아마 version이 맞지않는 것 같았다  
@@ -280,7 +280,7 @@ const center = {
 const Map = () => {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: 'MY_GOOGLEMAP_API'
+    googleMapsApiKey: process.env.REACT_APP_GOOGLEMAP_API_KEY
   })
 
   const [map, setMap] = React.useState(null)
@@ -309,5 +309,16 @@ const Map = () => {
   ) : <></>
 }
 export default Map
-  ```
+```
+
+- .env 파일에서는
+```
+REACT_APP_GOOGLEMAP_API_KEY=발급받은 Google map API key
+```
+
+- .gitignore에서는
+```
+#API KEY
+.env
+```
   
