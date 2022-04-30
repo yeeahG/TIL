@@ -1,7 +1,7 @@
 alert('message');
 window.location = '/some/url';
 
-### Hamburger menu
+### 🍔Hamburger menu
 ```
 import React,{useState} from 'react';
 import './Header.css'
