@@ -30,3 +30,22 @@ const toggleMenu = () => {
 
 export default Header
 ```
+
+### onClick event 여러개
+```
+1. 인라인으로
+onClick={() => {
+  a();
+  b();
+
+});
+
+2. 함수 만들기
+const clickMe = () => {
+  a();
+  b();
+};
+
+<Button onClick={clickMe}>
+```
+되도록 함수로 만들기
