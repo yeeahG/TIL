@@ -49,3 +49,26 @@ const clickMe = () => {
 <Button onClick={clickMe}>
 ```
 되도록 함수로 만들기
+
+### Select tag의 value값 저장하기
+```
+const designers =[
+  {key:1, value:"1번 디자이너"},
+  {key:2, value:"2번 디자이너"},
+  {key:3, value:"3번 디자이너"},
+]
+
+  const [Content, setContent] = useState();
+
+  const designerChoiceHandler=(e)=>{
+    setContent(e.currentTarget.value)
+  }
+  console.log(Content);
+  
+  return (
+   <select onChange={designerChoiceHandler} value={Content}>
+      {designers.map((item)=>(
+    <option key={item.key} value={item.value}>{item.value}</option>
+    ))}
+   </select>
+```
