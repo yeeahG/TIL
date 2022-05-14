@@ -18,3 +18,9 @@
 ```
 background: linear-gradient(40deg, #212e6e, #f3df88);
 ```
+
+#### a tag
+- a tag 클릭 시 새창으로 열기
+```
+target="_blank"
+```
