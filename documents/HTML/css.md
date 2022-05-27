@@ -24,3 +24,14 @@ background: linear-gradient(40deg, #212e6e, #f3df88);
 ```
 target="_blank"
 ```
+
+#### Scroll 안보이게 하기
+```
+body {
+    -ms-overflow-style:none; 
+}
+
+body::-webkit-scrollbar { 
+    display:none; 
+}
+```
