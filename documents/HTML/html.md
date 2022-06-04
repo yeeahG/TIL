@@ -7,3 +7,8 @@ https://formsubmit.co/
      <button type="submit">Send</button>
 </form>
 ```
+
+### 공백입력
+```
+&nbsp;
+```
