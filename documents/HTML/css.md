@@ -35,3 +35,13 @@ body::-webkit-scrollbar {
     display:none; 
 }
 ```
+
+#### 요소 겹치기
+```
+.up{
+position: relative;
+}
+.down {
+position: absolute;
+}
+```
