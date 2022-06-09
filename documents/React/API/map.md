@@ -3,6 +3,8 @@
 ## 🗺️Kakao Map
 
 ### Setting
+- .env를 사용하기 위해 dotenv 설치
+```npm install dotenv```
 - .env file  
 REACT_APP_KAKAOMAP_API_KEY=발급받은key입력
 - index.html  
