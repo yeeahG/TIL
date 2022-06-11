@@ -72,3 +72,6 @@ const designers =[
     ))}
    </select>
 ```
+
+### image 업로드 하는 input tag
+ ```<input type="file" accept="image/*"/>```
