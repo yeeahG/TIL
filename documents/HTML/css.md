@@ -45,3 +45,11 @@ position: relative;
 position: absolute;
 }
 ```
+
+#### 드래그 스타일 변경
+```
+::selection {
+  background: #f7f6f2;
+  color: #000;
+}
+```
