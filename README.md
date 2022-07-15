@@ -1,9 +1,8 @@
 # TIL
-
-# ✍️ 
-
 <div align=center>
-✍️ 
+
+## ✍️ 
+
 
 [![Solved.ac
 프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=sep0909)](https://solved.ac/sep0909)
