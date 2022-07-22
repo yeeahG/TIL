@@ -75,3 +75,6 @@ const designers =[
 
 ### image 업로드 하는 input tag
  ```<input type="file" accept="image/*"/>```
+ 
+### styled-component 적용하기
+```npm install styled-components``` 설치해줘야함
