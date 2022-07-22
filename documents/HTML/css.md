@@ -53,3 +53,13 @@ position: absolute;
   color: #000;
 }
 ```
+
+#### 원만들기
+```
+border-radius: 100vw;
+    width: 100%;
+    max-width: 20rem;
+    overflow: hidden;
+    background-color: #fe81b9;
+}
+```
